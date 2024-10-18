@@ -240,5 +240,74 @@ body {
   }
 }
 
+.pagination-container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+
+/* Pagination Buttons */
+.pagination-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 5px 8px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-block: 1rem;
+}
+
+.pagination-button:hover {
+  background-color: #006400;
+  color:#ffffff
+}
+
+/* Active Page Button */
+.active-page {
+  background-color: #006400;
+  color: white;
+  border-color: #006400;
+  border-radius: .2rem
+}
+
+.active-page:hover {
+  background-color: #006400;
+}
 
 
+
+/* Pagination Control Button */
+.pagination-control-btn {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 5px 8px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-block: 1rem;
+}
+
+.pagination-control-btn:hover {
+  background-color: #006400;
+}
+.pagination-control-btn:hover{
+  color: white;
+}
+
+/* Disabled State */
+.pagination-control-btn:disabled {
+  background-color: #d3d3d3;
+  color: #a9a9a9;
+  border-color: #bcbcbc;
+  cursor: not-allowed;
+}
+
+/* Disabled State - Prevent hover effect */
+.pagination-control-btn:disabled:hover {
+  background-color: #d3d3d3;
+}

@@ -6,15 +6,6 @@
   background-color: #f9f9f9;
 }
 
-/* Title of the product details page */
-.product-details-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  margin-bottom: 20px;
-  text-align: center;
-  color: #333;
-}
-
 /* Product details card */
 .product-details-card {
   display: grid;
@@ -93,3 +84,5 @@
   background-color: #eee;
   color: darkgreen;
 }
+
+
